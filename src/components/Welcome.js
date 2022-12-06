@@ -1,6 +1,6 @@
-import React ,{Components} from 'react';
+import React ,{Component} from 'react';
 
-class Welcome extends Components{
+class Welcome extends Component{
 render(){
 return <h1>Node Developer Kimaiyo</h1>
 }
