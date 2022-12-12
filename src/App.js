@@ -11,6 +11,7 @@ import Mycount from "./components/Mycount";
 import Users from "./components/Users";
 import Event from "./components/Event";
 import Range from "./components/Range";
+import Submit from "./components/Submit";
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
       <Users/>
       <Event/>
       <Range/>
+      <Submit/>
     </div>
   );
 }
