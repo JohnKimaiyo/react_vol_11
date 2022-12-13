@@ -12,6 +12,7 @@ import Users from "./components/Users";
 import Event from "./components/Event";
 import Range from "./components/Range";
 import Submit from "./components/Submit";
+import InpoutFocus from "./components/InputFocus";
 function App() {
   return (
     <div className="App">
@@ -28,6 +29,7 @@ function App() {
       <Event/>
       <Range/>
       <Submit/>
+      <InpoutFocus/>
     </div>
   );
 }
